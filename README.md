@@ -1,6 +1,7 @@
 # PDF Scanner Effect
 
-A bash/zsh script for macOS that transforms PDF documents to look like scanned copies with realistic noise, slight page rotations, and scanning artifacts.
+A second generation of  bash/zsh script for macOS that transforms PDF documents to look like scanned copies with realistic noise, slight page rotations, and scanning artifacts.
+First version you can see [here](https://geekjob.medium.com/imagemagick-emulate-the-effect-of-a-scanned-document-a820d6a0d15b)
 
 ## Features
 
