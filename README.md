@@ -23,9 +23,9 @@ brew install imagemagick ghostscript
 ### Download
 
 ```bash
-git clone https://github.com/yourusername/pdf-scanner-effect.git
+git clone https://github.com/frontdevops/pdf-scanner-effect.git
 cd pdf-scanner-effect
-chmod +x simple_scanner.sh
+chmod +x scan.sh
 ```
 
 ## Usage
@@ -34,13 +34,13 @@ chmod +x simple_scanner.sh
 
 ```bash
 # Color scan (default)
-./simple_scanner.sh input.pdf output.pdf
+./scan.sh input.pdf output.pdf
 
 # Grayscale scan
-./simple_scanner.sh -g input.pdf output.pdf
+./scan.sh -g input.pdf output.pdf
 
 # Mixed mode: grayscale + color signature on last page
-./simple_scanner.sh -s input.pdf output.pdf
+./scan.sh -s input.pdf output.pdf
 ```
 
 ### Options
@@ -54,10 +54,10 @@ chmod +x simple_scanner.sh
 
 ```bash
 # Process a contract with color signature
-./simple_scanner.sh -s contract.pdf scanned_contract.pdf
+./scan.sh -s contract.pdf scanned_contract.pdf
 
 # Create grayscale scan
-./simple_scanner.sh -g document.pdf document_scan.pdf
+./scan.sh -g document.pdf document_scan.pdf
 ```
 
 ## Effects Applied
