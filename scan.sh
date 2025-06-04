@@ -1,5 +1,19 @@
 #!/bin/bash
-# Simple PDF Scanner Effect Script for macOS
+#
+# PDF Scanner Effect v2.0
+# Copyright (c) 2025
+# 
+# A second generation of script that transforms PDF documents to look like scanned copies
+# with realistic noise, slight rotations, and scanning artifacts.
+#
+# First version you can see here https://geekjob.medium.com/imagemagick-emulate-the-effect-of-a-scanned-document-a820d6a0d15b
+#
+# Author: Alexander Majorov
+# Version: 2.0
+# Year: 2025
+# License: MIT
+#
+
 set -e
 
 # Default parameters
