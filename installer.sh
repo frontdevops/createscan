@@ -4,6 +4,9 @@
 # Copyright (c) 2025
 #
 
+echo "Not use, under construction!"
+exit 1
+
 set -e
 
 SCRIPT_NAME="pdf-scanner"
