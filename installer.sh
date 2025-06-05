@@ -4,7 +4,7 @@
 # Copyright (c) 2025
 #
 
-echo "Not use, under construction!"
+echo "Don't use, under construction!"
 exit 1
 
 set -e
